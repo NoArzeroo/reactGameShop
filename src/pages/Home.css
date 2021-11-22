@@ -1,0 +1,62 @@
+.nintendo {
+  padding: 15px;
+  margin-bottom: 20px;
+  font-family: cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+.ns-button {
+  margin-left: 1vw;
+  font-size: x-large;
+}
+
+.xbox {
+  padding: 15px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  font-family: cursive;
+  font-size: 25px;
+}
+
+.playstation {
+  padding: 15px;
+  margin-bottom: 5px;
+  font-family: cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+.ps-header {
+  padding-top: 24px;
+  text-align: center;
+}
+
+.ps-button {
+  text-align: center;
+  margin-left: 35em;
+  position: relative;
+  font-family: cursive;
+  font-size: 25px;
+}
+
+.ps5-photo {
+  margin-top: 10px;
+  width: 100%;
+
+  right: 0%;
+}
+
+.xbox-button {
+  margin-left: 1vw;
+  font-size: x-large;
+}
+
+.xbox-button:hover {
+  text-decoration: underline;
+}
+
+.help-text {
+  position: relative;
+  color: azure;
+}

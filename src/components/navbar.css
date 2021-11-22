@@ -1,0 +1,112 @@
+.navbar {
+  background-color: #080d2b;
+  position: sticky;
+  top: 0;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  list-style-type: none;
+  z-index: 10;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-menu {
+  background-color: #080d2b;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+  list-style-type: none;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 120px;
+  list-style-type: none;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: azure;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+  list-style-type: none;
+}
+
+.nav-text a:hover {
+  background-color: #1898d3;
+  color: azure;
+}
+
+.nav-menu-items {
+  width: 100%;
+  height: 1000px;
+  list-style-type: none;
+  padding-left: 0%;
+}
+
+.navbar-toggle {
+  background-color: #80d16c;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.button-login {
+  position: relative;
+  margin-left: 50px;
+}
+
+.guest-button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  color: azure;
+  margin-right: 3%;
+  z-index: 10;
+}
+
+.link-sign {
+  color: azure;
+  text-decoration: none;
+}
+
+.item-title {
+  margin-left: 20px;
+}

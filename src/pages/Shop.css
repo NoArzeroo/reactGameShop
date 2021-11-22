@@ -1,0 +1,22 @@
+.pg-bg {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/bg-photo.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  width: 100%;
+  position: relative;
+}
+
+h1 {
+  margin-top: 2vw;
+  text-align: center;
+  font-family: Zapf Chancery, cursive;
+  color: aliceblue;
+}
+
+.input-search {
+  position: absolute;
+  margin-left: 6vw;
+}

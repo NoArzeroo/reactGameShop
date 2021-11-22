@@ -1,0 +1,17 @@
+.sort-bar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  color: azure;
+  margin-right: 3%;
+}
+
+a {
+  display: inline-block;
+}
+
+a:hover {
+  cursor: pointer;
+}

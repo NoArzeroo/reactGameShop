@@ -1,0 +1,10 @@
+.theme {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+}

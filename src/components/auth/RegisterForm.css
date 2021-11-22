@@ -1,0 +1,13 @@
+.bg {
+  background-image: url(../../img/bg-photo.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 62rem;
+  width: 100%;
+  position: fixed;
+}
+
+.container-login {
+  position: relative;
+  margin-top: 5%;
+}
